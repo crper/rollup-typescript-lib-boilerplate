@@ -47,7 +47,7 @@
     "prepublish": "npm test",
     "prepare": "husky",
     "v-pub-tarball": "npm publish --dry-run",
-    "release": "release-it --dry-run",
+    "release": "release-it",
     "commit": "git-cz"
   },
   "devDependencies": {
