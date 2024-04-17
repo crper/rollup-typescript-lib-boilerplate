@@ -5,6 +5,12 @@ A starter project that makes creating a TypeScript library extremely easy.
 ### Features
 
 - Tests using Vitest
+- Rollup(v4.x) for bundling and packaging
+- Automatic releases and changelog(release-it)
+- Lint-staged test (husky and init hooks: pre-commit, commit-msg)
+  - eslint、prettier、commitlint、vitest
+- The configuration file template released by the npm package (refer to package.json)
+- Automatic types (\*.d.ts) file generation (typescript v5.x)
 
 ### Usage
 
@@ -39,10 +45,17 @@ pnpm test:prod
 # interactive commit (Angular Conventional Commit)
 pnpm commit
 
+# npm publish --dry-run (view tarball)
+pnpm v-pub-tarball
+
 # release-it is interactive and allows you to confirm each task before execution:
 pnpm release
 
 ```
+
+#### NPM Scripts Demo Gif
+
+[npm-scripts-intro.md](npm-scripts-intro.md)
 
 ### Technologies
 
@@ -60,6 +73,4 @@ pnpm release
 
 known issue: [https://github.com/rollup/plugins/issues/1536](https://github.com/rollup/plugins/issues/1536)
 
-```
-
-```
+**Enjoy!**
