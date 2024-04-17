@@ -24,7 +24,7 @@
     "email": "crper@outlook.com"
   },
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "files": [
     "dist"
@@ -44,7 +44,7 @@
     "build": "pnpm test:prod && rollup -c rollup.config.ts --configPlugin typescript --environment BUILD:production",
     "test": "vitest ",
     "test:prod": "vitest run",
-    "prepublish": "npm test",
+    "prepublish": "npm test:prod",
     "prepare": "husky",
     "v-pub-tarball": "npm publish --dry-run",
     "release": "release-it",
