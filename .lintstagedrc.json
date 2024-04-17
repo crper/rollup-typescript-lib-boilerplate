@@ -1,0 +1,4 @@
+{
+  "lib/**/*.ts": ["vitest related --run", "prettier --write", "eslint --fix"],
+  "*.{json,md}": "prettier --write"
+}

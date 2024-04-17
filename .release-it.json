@@ -1,0 +1,12 @@
+{
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": "angular",
+      "infile": "CHANGELOG.md"
+    }
+  },
+  "git": {},
+  "npm": {
+    "publish": false
+  }
+}

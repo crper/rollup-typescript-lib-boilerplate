@@ -1,0 +1,10 @@
+/node_modules
+/dist
+/package-lock.json
+/pnpm-lock.yaml
+.DS_Store
+vitest.config.ts
+
+
+**/*.md
+
